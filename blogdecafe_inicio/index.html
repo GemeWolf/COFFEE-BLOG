@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafe</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo"><h1 class="logo__name noMargin centerText">Blog<span class="logo__bold">DeCafé</span></h1></a>
+                <!-- <a href="index.html" class="nav__link">Inicio</a> -- Replaced by the logo-->
+                <a href="about.html" class="nav__link">Nosotros</a>
+                <a href="courses.html" class="nav__link">Cursos</a>
+                <a href="blog.html" class="nav__link">Blog</a>
+                <a href="contacto.html" class="nav__link">Contacto</a>
+
+                <label class="ui-switch">
+                    <input type="checkbox">
+                    <div class="slider">
+                      <div class="circle"></div>
+                    </div>
+                </label>
+            </nav>
+        </div>
+        <div class="header__text">
+            <h2 class="noMargin">Blog de Café con Consejos y Cursos</h2>
+            <p class="noMargin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+    
+    <div class="container container__main">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+            <article class="blog__post">
+                <div class="blog__image">
+                    <img src="img/blog1.jpg" alt="Imagen de Blog">
+                </div>
+                <h4 class="noMargin">Blog Post 1</h4>
+                <p>Etiam accumsan faucibus orci, id ultricies eros. Donec quis facilisis est, sed consectetur risus. Integer fermentum dignissim facilisis. Etiam bibendum molestie libero, at feugiat odio viverra at. Sed cursus pellentesque mi, at molestie sem dictum non. Proin pulvinar sodales libero eget blandit. Maecenas lorem mi, feugiat vitae vestibulum et, luctus id augue. Praesent ut volutpat justo. Ut neque metus, molestie eu ultrices ut, porttitor ac mauris. Nullam fermentum ante sapien. Maecenas mauris odio, lobortis vel egestas vel, vulputate ac mi. Curabitur placerat ex sed arcu efficitur, quis iaculis est ornare. Nunc imperdiet a turpis et eleifend.</p>
+                <a href="entrada.html" class="button button__main">Leer Entrada</a>
+            </article>
+
+            <article class="blog__post">
+                <div class="blog__image">
+                    <img src="img/blog2.jpg" alt="Imagen de Blog">
+                </div>
+                <h4 class="noMargin">3 Deliciosas Recetas de Café</h4>
+                <p>Etiam accumsan faucibus orci, id ultricies eros. Donec quis facilisis est, sed consectetur risus. Integer fermentum dignissim facilisis. Etiam bibendum molestie libero, at feugiat odio viverra at. Sed cursus pellentesque mi, at molestie sem dictum non. Proin pulvinar sodales libero eget blandit. Maecenas lorem mi, feugiat vitae vestibulum et, luctus id augue. Praesent ut volutpat justo. Ut neque metus, molestie eu ultrices ut, porttitor ac mauris. Nullam fermentum ante sapien. Maecenas mauris odio, lobortis vel egestas vel, vulputate ac mi. Curabitur placerat ex sed arcu efficitur, quis iaculis est ornare. Nunc imperdiet a turpis et eleifend.</p>
+                <a href="entrada.html" class="button button__main">Leer Entrada</a>
+            </article>
+
+            <article class="blog__post">
+                <div class="blog__image">
+                    <img src="img/blog3.jpg" alt="Imagen de Blog">
+                </div>
+                <h4 class="noMargin">Beneficios del Café</h4>
+                <p>Etiam accumsan faucibus orci, id ultricies eros. Donec quis facilisis est, sed consectetur risus. Integer fermentum dignissim facilisis. Etiam bibendum molestie libero, at feugiat odio viverra at. Sed cursus pellentesque mi, at molestie sem dictum non. Proin pulvinar sodales libero eget blandit. Maecenas lorem mi, feugiat vitae vestibulum et, luctus id augue. Praesent ut volutpat justo. Ut neque metus, molestie eu ultrices ut, porttitor ac mauris. Nullam fermentum ante sapien. Maecenas mauris odio, lobortis vel egestas vel, vulputate ac mi. Curabitur placerat ex sed arcu efficitur, quis iaculis est ornare. Nunc imperdiet a turpis et eleifend.</p>
+                <a href="entrada.html" class="button button__main">Leer Entrada</a>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Nuestros Cursos y Talleres</h3>
+
+            <ul class="courses noPadding">
+                <li class="widget__courses"><h4 class="noMargin">Técnicas de extración de Café</h4> <p class="widget__courses__label">Precio: <span class="widget__courses__info">Gratis</span></p> <p class="widget__courses__label">Cupo: <span class="widget__courses__info">20</span></p>  <a href="entrada.html" class="button button__secundary">Mas Información</a></li>
+                <li class="widget__courses"><h4 class="noMargin">4 Recetas de Café para Principiantes</h4> <p class="widget__courses__label">Precio: <span class="widget__courses__info">Gratis</span></p> <p class="widget__courses__label">Cupo: <span class="widget__courses__info">20</span></p> <a href="entrada.html" class="button button__secundary">Mas Información</a></li>
+            </ul>
+        </aside>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="container">
+                <p class="footer__text widget__courses__label">© 2024 BlogDeCafé. <span class="widget__courses__info">Todos los derechos reservados.</span></p>
+            </div>
+        </div>
+        <a href="#" class="button__footer raise">Volver Arriba</a>
+        <!-- <button class="button__footer raise">Volver Arriba</button> -->
+    </footer>
+</body>
+</html>
